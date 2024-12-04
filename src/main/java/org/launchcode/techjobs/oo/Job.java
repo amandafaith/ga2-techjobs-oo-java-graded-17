@@ -95,26 +95,9 @@ public class Job {
         return id;
     }
 
-    //create a toString method that passes:
-    //that the returned string starts and ends with a blank line
+ 
     @Override
     public String toString() {
-//        to pass first test:
-//        return System.lineSeparator() + System.lineSeparator();
-
-//        to pass second test:
-//        String result = System.lineSeparator();
-//        result += "ID: " + getId() + "\n";
-//        result += "Name: " + getName() + "\n";
-//        result += "Employer: " + getEmployer().getValue() + "\n";
-//        result += "Location: " + getLocation().getValue() + "\n";
-//        result += "Position Type: " + getPositionType().getValue() + "\n";
-//        result += "Core Competency: " + getCoreCompetency().getValue() + "\n";
-//        result += System.lineSeparator();
-//
-//        return result;
-
-//        to pass third test:
         String result = System.lineSeparator();
         result += "ID: " + getId() + System.lineSeparator();
         result += "Name: " + (name == null || name.isBlank() ? "Data not available" : name) + System.lineSeparator();
