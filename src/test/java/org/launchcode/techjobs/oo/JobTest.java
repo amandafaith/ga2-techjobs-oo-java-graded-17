@@ -85,7 +85,7 @@ public class JobTest {
         assertTrue("The string should contain the correct ID", result.contains("ID: " + test_job7.getId()));
         assertTrue("The string should contain the correct name", result.contains("Name: " + test_job7.getName()));
         assertTrue("The string should contain the correct employer", result.contains("Employer: " + test_job7.getEmployer().getValue()));
-        assertTrue("The string should contain the correct location", result.contains("Location: " + test_job7.getLocation()));
+        assertTrue("The string should contain the correct location", result.contains("Location: " + test_job7.getLocation().getValue()));
         assertTrue("The string should contain the correct position type", result.contains("Position Type: " + test_job7.getPositionType().getValue()));
         assertTrue("The string should contain the correct core competency", result.contains("Core Competency: " + test_job7.getCoreCompetency().getValue()));
 
